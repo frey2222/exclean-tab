@@ -1,0 +1,167 @@
+{
+  "extensionName": {
+    "message": "Exclean Tab"
+  },
+  "extensionDescription": {
+    "message": "簡潔的新標籤頁：純粹的搜尋框、多種顏色主題、可選的快捷方式。不顯示搜尋建議，不讀取瀏覽歷史。"
+  },
+  "pageTitle": {
+    "message": "新標籤頁"
+  },
+  "searchPlaceholder": {
+    "message": "搜尋"
+  },
+  "searchLabel": {
+    "message": "搜尋網頁"
+  },
+  "customize": {
+    "message": "自定義"
+  },
+  "panelTitle": {
+    "message": "自定義此頁面"
+  },
+  "close": {
+    "message": "關閉"
+  },
+  "sectionColor": {
+    "message": "顏色"
+  },
+  "sectionAppearance": {
+    "message": "外觀"
+  },
+  "appearanceSystem": {
+    "message": "跟隨系統"
+  },
+  "appearanceLight": {
+    "message": "淺色"
+  },
+  "appearanceDark": {
+    "message": "深色"
+  },
+  "sectionMark": {
+    "message": "圖形"
+  },
+  "markDaily": {
+    "message": "每天更換"
+  },
+  "markHidden": {
+    "message": "隱藏圖形"
+  },
+  "sectionShortcuts": {
+    "message": "快捷方式"
+  },
+  "shortcutsVisible": {
+    "message": "顯示快捷方式"
+  },
+  "sectionSearch": {
+    "message": "搜尋框"
+  },
+  "focusSearch": {
+    "message": "開啟新標籤頁時聚焦搜尋框"
+  },
+  "addShortcut": {
+    "message": "新增快捷方式"
+  },
+  "editShortcut": {
+    "message": "修改快捷方式"
+  },
+  "shortcutMenu": {
+    "message": "更多操作"
+  },
+  "fieldName": {
+    "message": "名稱"
+  },
+  "fieldUrl": {
+    "message": "網址"
+  },
+  "invalidUrl": {
+    "message": "請輸入有效的網址"
+  },
+  "remove": {
+    "message": "刪除"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "done": {
+    "message": "完成"
+  },
+  "themeDefault": {
+    "message": "預設"
+  },
+  "themeBlue": {
+    "message": "藍色"
+  },
+  "themeAqua": {
+    "message": "青色"
+  },
+  "themeGreen": {
+    "message": "綠色"
+  },
+  "themeCitron": {
+    "message": "檸檬黃"
+  },
+  "themeOrange": {
+    "message": "橙色"
+  },
+  "themeRose": {
+    "message": "玫瑰紅"
+  },
+  "themeFuchsia": {
+    "message": "紫紅"
+  },
+  "themeViolet": {
+    "message": "紫色"
+  },
+  "markRing": {
+    "message": "圓環"
+  },
+  "markOrbit": {
+    "message": "軌道"
+  },
+  "markCluster": {
+    "message": "簇"
+  },
+  "markTile": {
+    "message": "方塊"
+  },
+  "markArcs": {
+    "message": "弧線"
+  },
+  "markSplit": {
+    "message": "分割"
+  },
+  "markBars": {
+    "message": "柱條"
+  },
+  "themeCoolGrey": {
+    "message": "冷灰"
+  },
+  "themeGrey": {
+    "message": "灰色"
+  },
+  "themeViridian": {
+    "message": "青綠"
+  },
+  "themeApricot": {
+    "message": "杏色"
+  },
+  "themePink": {
+    "message": "粉色"
+  },
+  "sectionBookmarks": {
+    "message": "書籤欄"
+  },
+  "bookmarksVisible": {
+    "message": "顯示書籤欄"
+  },
+  "allBookmarks": {
+    "message": "所有書籤"
+  },
+  "moreBookmarks": {
+    "message": "更多書籤"
+  },
+  "emptyFolder": {
+    "message": "（空）"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "extensionName": {
+    "message": "Exclean Tab"
+  },
+  "extensionDescription": {
+    "message": "简洁的新标签页：纯粹的搜索框、多种颜色主题、可选的快捷方式。不显示搜索建议，不读取浏览历史。"
+  },
+  "pageTitle": {
+    "message": "新标签页"
+  },
+  "searchPlaceholder": {
+    "message": "搜索"
+  },
+  "searchLabel": {
+    "message": "搜索网页"
+  },
+  "customize": {
+    "message": "自定义"
+  },
+  "panelTitle": {
+    "message": "自定义此页面"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "sectionColor": {
+    "message": "颜色"
+  },
+  "sectionAppearance": {
+    "message": "外观"
+  },
+  "appearanceSystem": {
+    "message": "跟随系统"
+  },
+  "appearanceLight": {
+    "message": "浅色"
+  },
+  "appearanceDark": {
+    "message": "深色"
+  },
+  "sectionMark": {
+    "message": "图形"
+  },
+  "markDaily": {
+    "message": "每天更换"
+  },
+  "markHidden": {
+    "message": "隐藏图形"
+  },
+  "sectionShortcuts": {
+    "message": "快捷方式"
+  },
+  "shortcutsVisible": {
+    "message": "显示快捷方式"
+  },
+  "sectionSearch": {
+    "message": "搜索框"
+  },
+  "focusSearch": {
+    "message": "打开新标签页时聚焦搜索框"
+  },
+  "addShortcut": {
+    "message": "添加快捷方式"
+  },
+  "editShortcut": {
+    "message": "修改快捷方式"
+  },
+  "shortcutMenu": {
+    "message": "更多操作"
+  },
+  "fieldName": {
+    "message": "名称"
+  },
+  "fieldUrl": {
+    "message": "网址"
+  },
+  "invalidUrl": {
+    "message": "请输入有效的网址"
+  },
+  "remove": {
+    "message": "删除"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "done": {
+    "message": "完成"
+  },
+  "themeDefault": {
+    "message": "默认"
+  },
+  "themeBlue": {
+    "message": "蓝色"
+  },
+  "themeAqua": {
+    "message": "青色"
+  },
+  "themeGreen": {
+    "message": "绿色"
+  },
+  "themeCitron": {
+    "message": "柠檬黄"
+  },
+  "themeOrange": {
+    "message": "橙色"
+  },
+  "themeRose": {
+    "message": "玫瑰红"
+  },
+  "themeFuchsia": {
+    "message": "紫红"
+  },
+  "themeViolet": {
+    "message": "紫色"
+  },
+  "markRing": {
+    "message": "圆环"
+  },
+  "markOrbit": {
+    "message": "轨道"
+  },
+  "markCluster": {
+    "message": "簇"
+  },
+  "markTile": {
+    "message": "方块"
+  },
+  "markArcs": {
+    "message": "弧线"
+  },
+  "markSplit": {
+    "message": "分割"
+  },
+  "markBars": {
+    "message": "柱条"
+  },
+  "themeCoolGrey": {
+    "message": "冷灰"
+  },
+  "themeGrey": {
+    "message": "灰色"
+  },
+  "themeViridian": {
+    "message": "青绿"
+  },
+  "themeApricot": {
+    "message": "杏色"
+  },
+  "themePink": {
+    "message": "粉色"
+  },
+  "sectionBookmarks": {
+    "message": "书签栏"
+  },
+  "bookmarksVisible": {
+    "message": "显示书签栏"
+  },
+  "allBookmarks": {
+    "message": "所有书签"
+  },
+  "moreBookmarks": {
+    "message": "更多书签"
+  },
+  "emptyFolder": {
+    "message": "（空）"
+  }
+}

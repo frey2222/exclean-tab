@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="pageTitle">New Tab</title>
+  <script src="js/theme-boot.js"></script>
+  <link rel="stylesheet" href="newtab.css">
+</head>
+<body>
+  <nav class="bookmark-bar" id="bookmark-bar" hidden>
+    <div class="bookmark-items" id="bookmark-items"></div>
+    <button class="bookmark-item bookmark-overflow" id="bookmark-overflow" type="button" data-i18n-aria-label="moreBookmarks" data-i18n-title="moreBookmarks" aria-label="More bookmarks" title="More bookmarks" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="currentColor" d="M6.4 6 5 7.4 9.6 12 5 16.6 6.4 18l6-6zm6 0L11 7.4l4.6 4.6-4.6 4.6 1.4 1.4 6-6z"/>
+      </svg>
+    </button>
+    <span class="bookmark-divider" id="bookmark-divider" hidden></span>
+    <button class="bookmark-item bookmark-folder" id="bookmark-all" type="button" hidden>
+      <svg class="bookmark-folder-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="currentColor" d="M10 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8z"/>
+      </svg>
+      <span class="bookmark-label" data-i18n="allBookmarks">All bookmarks</span>
+    </button>
+  </nav>
+
+  <header class="top-bar">
+    <nav class="top-links">
+      <a class="top-link" href="https://mail.google.com/">Gmail</a>
+      <a class="top-link" href="https://gemini.google.com/">Gemini</a>
+      <button class="customize-button" id="customize-button" type="button" aria-controls="panel" aria-expanded="false" data-i18n-aria-label="customize" data-i18n-title="customize" aria-label="Customize" title="Customize">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="currentColor" d="M3 17.25V21h3.75L17.8 9.94l-3.75-3.75L3 17.25zm17.7-10.2a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/>
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <main class="content">
+    <div class="mark" id="mark" aria-hidden="true"></div>
+
+    <div class="search" role="search">
+      <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/>
+        <line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <input
+        id="search-input"
+        class="search-input"
+        type="text"
+        autocomplete="off"
+        autocorrect="off"
+        autocapitalize="off"
+        spellcheck="false"
+        data-i18n-placeholder="searchPlaceholder"
+        data-i18n-aria-label="searchLabel"
+        placeholder="Search"
+        aria-label="Search the web">
+    </div>
+
+    <section class="shortcuts" id="shortcuts" hidden>
+      <ul class="shortcut-list" id="shortcut-list"></ul>
+    </section>
+  </main>
+
+  <aside class="panel" id="panel" aria-labelledby="panel-title" hidden>
+    <div class="panel-header">
+      <h2 class="panel-title" id="panel-title" data-i18n="panelTitle">Customize this page</h2>
+      <button class="icon-button" id="panel-close" type="button" data-i18n-aria-label="close" aria-label="Close">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="currentColor" d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="panel-body">
+      <section class="panel-section">
+        <h3 class="panel-section-title" data-i18n="sectionColor">Color</h3>
+        <div class="theme-grid" id="theme-grid" role="radiogroup"></div>
+      </section>
+
+      <section class="panel-section">
+        <h3 class="panel-section-title" data-i18n="sectionAppearance">Appearance</h3>
+        <div class="segmented" id="scheme-group" role="radiogroup">
+          <label class="segmented-option">
+            <input type="radio" name="scheme" value="system">
+            <span data-i18n="appearanceSystem">Device</span>
+          </label>
+          <label class="segmented-option">
+            <input type="radio" name="scheme" value="light">
+            <span data-i18n="appearanceLight">Light</span>
+          </label>
+          <label class="segmented-option">
+            <input type="radio" name="scheme" value="dark">
+            <span data-i18n="appearanceDark">Dark</span>
+          </label>
+        </div>
+      </section>
+
+      <section class="panel-section">
+        <h3 class="panel-section-title" data-i18n="sectionMark">Shape</h3>
+        <div class="mark-grid" id="mark-grid" role="radiogroup"></div>
+        <label class="option-row">
+          <input type="radio" name="mark-mode" value="daily">
+          <span data-i18n="markDaily">Change daily</span>
+        </label>
+        <label class="option-row">
+          <input type="radio" name="mark-mode" value="hidden">
+          <span data-i18n="markHidden">Hide shape</span>
+        </label>
+      </section>
+
+      <section class="panel-section">
+        <h3 class="panel-section-title" data-i18n="sectionBookmarks">Bookmarks bar</h3>
+        <label class="option-row option-row-switch">
+          <span data-i18n="bookmarksVisible">Show bookmarks bar</span>
+          <input type="checkbox" id="bookmarks-visible" role="switch">
+        </label>
+      </section>
+
+      <section class="panel-section">
+        <h3 class="panel-section-title" data-i18n="sectionShortcuts">Shortcuts</h3>
+        <label class="option-row option-row-switch">
+          <span data-i18n="shortcutsVisible">Show shortcuts</span>
+          <input type="checkbox" id="shortcuts-visible" role="switch">
+        </label>
+      </section>
+
+      <section class="panel-section">
+        <h3 class="panel-section-title" data-i18n="sectionSearch">Search box</h3>
+        <label class="option-row option-row-switch">
+          <span data-i18n="focusSearch">Focus search box when a tab opens</span>
+          <input type="checkbox" id="focus-search" role="switch">
+        </label>
+      </section>
+    </div>
+  </aside>
+
+  <dialog class="dialog" id="shortcut-dialog">
+    <form class="dialog-form" id="shortcut-form" autocomplete="off" novalidate>
+      <h2 class="dialog-title" id="shortcut-dialog-title"></h2>
+      <label class="field">
+        <span class="field-label" data-i18n="fieldName">Name</span>
+        <input class="field-input" id="shortcut-name" type="text" autocomplete="off" spellcheck="false" maxlength="40">
+      </label>
+      <label class="field">
+        <span class="field-label" data-i18n="fieldUrl">URL</span>
+        <input class="field-input" id="shortcut-url" type="text" autocomplete="off" spellcheck="false" inputmode="url">
+        <span class="field-error" id="shortcut-url-error" hidden data-i18n="invalidUrl">Enter a valid web address</span>
+      </label>
+      <div class="dialog-actions">
+        <button class="text-button text-button-danger" id="shortcut-remove" type="button" data-i18n="remove" hidden>Remove</button>
+        <span class="dialog-actions-spacer"></span>
+        <button class="text-button" id="shortcut-cancel" type="button" data-i18n="cancel">Cancel</button>
+        <button class="filled-button" id="shortcut-save" type="submit" data-i18n="done">Done</button>
+      </div>
+    </form>
+  </dialog>
+
+  <template id="shortcut-template">
+    <li class="shortcut">
+      <a class="shortcut-link" href="#">
+        <span class="shortcut-icon"></span>
+        <span class="shortcut-label"></span>
+      </a>
+      <button class="shortcut-menu" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="currentColor" d="M12 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0 6a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+        </svg>
+      </button>
+    </li>
+  </template>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+{
+  "extensionName": {
+    "message": "Exclean Tab"
+  },
+  "extensionDescription": {
+    "message": "A clean new tab page with a plain search box, color themes and optional shortcuts. No suggestions, no history access."
+  },
+  "pageTitle": {
+    "message": "New Tab"
+  },
+  "searchPlaceholder": {
+    "message": "Search"
+  },
+  "searchLabel": {
+    "message": "Search the web"
+  },
+  "customize": {
+    "message": "Customize"
+  },
+  "panelTitle": {
+    "message": "Customize this page"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "sectionColor": {
+    "message": "Color"
+  },
+  "sectionAppearance": {
+    "message": "Appearance"
+  },
+  "appearanceSystem": {
+    "message": "Device"
+  },
+  "appearanceLight": {
+    "message": "Light"
+  },
+  "appearanceDark": {
+    "message": "Dark"
+  },
+  "sectionMark": {
+    "message": "Shape"
+  },
+  "markDaily": {
+    "message": "Change daily"
+  },
+  "markHidden": {
+    "message": "Hide shape"
+  },
+  "sectionShortcuts": {
+    "message": "Shortcuts"
+  },
+  "shortcutsVisible": {
+    "message": "Show shortcuts"
+  },
+  "sectionSearch": {
+    "message": "Search box"
+  },
+  "focusSearch": {
+    "message": "Focus search box when a tab opens"
+  },
+  "addShortcut": {
+    "message": "Add shortcut"
+  },
+  "editShortcut": {
+    "message": "Edit shortcut"
+  },
+  "shortcutMenu": {
+    "message": "More actions"
+  },
+  "fieldName": {
+    "message": "Name"
+  },
+  "fieldUrl": {
+    "message": "URL"
+  },
+  "invalidUrl": {
+    "message": "Enter a valid web address"
+  },
+  "remove": {
+    "message": "Remove"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "done": {
+    "message": "Done"
+  },
+  "themeDefault": {
+    "message": "Default"
+  },
+  "themeBlue": {
+    "message": "Blue"
+  },
+  "themeAqua": {
+    "message": "Aqua"
+  },
+  "themeGreen": {
+    "message": "Green"
+  },
+  "themeCitron": {
+    "message": "Citron"
+  },
+  "themeOrange": {
+    "message": "Orange"
+  },
+  "themeRose": {
+    "message": "Rose"
+  },
+  "themeFuchsia": {
+    "message": "Fuchsia"
+  },
+  "themeViolet": {
+    "message": "Violet"
+  },
+  "markRing": {
+    "message": "Ring"
+  },
+  "markOrbit": {
+    "message": "Orbit"
+  },
+  "markCluster": {
+    "message": "Cluster"
+  },
+  "markTile": {
+    "message": "Tile"
+  },
+  "markArcs": {
+    "message": "Arcs"
+  },
+  "markSplit": {
+    "message": "Split"
+  },
+  "markBars": {
+    "message": "Bars"
+  },
+  "themeCoolGrey": {
+    "message": "Cool grey"
+  },
+  "themeGrey": {
+    "message": "Grey"
+  },
+  "themeViridian": {
+    "message": "Viridian"
+  },
+  "themeApricot": {
+    "message": "Apricot"
+  },
+  "themePink": {
+    "message": "Pink"
+  },
+  "sectionBookmarks": {
+    "message": "Bookmarks bar"
+  },
+  "bookmarksVisible": {
+    "message": "Show bookmarks bar"
+  },
+  "allBookmarks": {
+    "message": "All bookmarks"
+  },
+  "moreBookmarks": {
+    "message": "More bookmarks"
+  },
+  "emptyFolder": {
+    "message": "(empty)"
+  }
+}
