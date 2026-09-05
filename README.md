@@ -55,12 +55,3 @@ icons/                 Extension icons
 ## License
 
 MIT (see `LICENSE`). Third-party components and attributions are listed in `THIRD_PARTY_NOTICES.md`.
-
-## Publishing notes
-
-Before submitting to the Chrome Web Store:
-
-- State in the listing that the extension replaces the new tab page.
-- Provide a privacy policy URL. This extension stores settings only, and syncs them through
-  the user's Chrome account if sync is enabled.
-- Keep the name, icon and screenshots free of third-party trademarks.
